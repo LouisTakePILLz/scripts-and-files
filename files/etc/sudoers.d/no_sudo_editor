@@ -1,0 +1,1 @@
+%sudo ALL=ALL, !/usr/bin/vim, !/bin/vim, !/usr/bin/vi, !/bin/vi, !/usr/bin/nvim, !/bin/nvim, !/usr/bin/emacs, !/bin/emacs, !/usr/bin/nano, !/bin/nano

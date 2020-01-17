@@ -1,0 +1,2 @@
+Cmnd_Alias MOUNT_ANYARGS = /usr/bin/mount *
+%peelz ALL=(root) NOPASSWD: MOUNT_ANYARGS
