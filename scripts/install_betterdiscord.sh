@@ -2,13 +2,15 @@
 
 set -Eeu
 
+mkdir -p ~/.local/bin/
+
 # Install betterdiscordctl
 curl 'https://raw.githubusercontent.com/bb010g/betterdiscordctl/master/betterdiscordctl' \
   -o ~/.local/bin/betterdiscordctl
 chmod +x ~/.local/bin/betterdiscordctl
 
 # Install BetterDiscord
-~/.local/bin/betterdiscordctl install
+~/.local/bin/betterdiscordctl reinstall
 
 # Remove the enforced frame from the Electron config
 sed -i \
