@@ -1,3 +1,4 @@
 headset_sink="alsa_output.usb-Kingston_HyperX_Cloud_Flight_Wireless_Headset-00.analog-stereo"
 mic_source="alsa_input.usb-Focusrite_Scarlett_Solo_USB-00.analog-stereo"
+headset_mic_source="alsa_input.usb-Kingston_HyperX_Cloud_Flight_Wireless_Headset-00.analog-mono"
 notification_volume=30000

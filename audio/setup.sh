@@ -15,6 +15,8 @@ pactl load-module module-loopback source=virtual_audio.monitor sink="$headset_si
 pactl load-module module-loopback source=virtual_audio.monitor sink=virtual_mic
 # Microphone -> virtual-mic
 pactl load-module module-loopback source="$mic_source" sink=virtual_mic
+# Headset Microphone -> virtual-mic
+pactl load-module module-loopback source="$headset_mic_source" sink=virtual_mic
 
 # Set virtual-mic as the default source
 pactl set-default-source virtual_mic.monitor
